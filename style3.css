@@ -1,0 +1,111 @@
+
+
+
+.cards{
+        
+        width: 130mm;
+        height: 70mm;
+	    border: 5px ridge black;
+       //filter:blur(5px);
+        margin:10px;
+        
+       background-size: 100% 100%;
+        display: inline-block;
+        font-size: small;
+       // background:linear-gradient(45deg, var(--primary), var(--secondary)),
+                   // url("images/hallmark.png")no-repeat center center/cover;
+        background-color:white;
+     
+        
+        
+}
+
+
+.bussinessname{
+    font-size: 19px;
+    font-family: fantasy;
+    text-align: center;
+    color: blue;
+    margin-right: 0pc;
+    margin-top: 10px;
+    display:inherit;
+    //padding-left: 55px;
+    
+}
+.card-contents  td{
+    text-indent: 2px;
+    font-family: verdana;
+   font-size: 10px; 
+   padding-left: 5px;
+}
+img#company_logo{
+    left: 5px;
+    
+    width:120px;
+    height:60px;
+}
+
+
+
+h5{
+    color: white;
+    font-family: tahoma;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: medium;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding-top: 5px ;
+    padding-bottom: 5px;
+    border-top:1.5px solid #C0C0C0;
+    border-bottom: 1.5px solid #C0C0C0;
+    background-color: blue;
+    
+    
+}
+
+
+
+
+.table{
+    
+    color: black;
+    font-size: medium;
+    justify-content: flex-end;
+    display: inline;
+    font-size: 15px;
+    padding-inline-start: 6px;
+    
+    
+   
+    
+
+       
+    
+   }
+   .table tr td:nth-child(2){
+        padding-left: 20px;
+        
+   }
+  
+.hallmark_logo{
+    height:150px;
+    width: 150px;
+    padding-left: 90px;
+}
+
+.barcode{
+    margin-left: 5px;
+    margin-top: 5px;
+   
+    
+}
+
+tr{
+    page-break-after: auto;
+}
+
+p{
+    text-align: center;
+}
